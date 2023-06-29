@@ -19,3 +19,5 @@ class FormPage(BasePage):
         self.current_address = WebElement(driver, "#currentAddress")
         self.select_state = WebElement(driver, "#state > div > div.css-1wy0on6 > div > svg")
         self.ncr = WebElement(driver, "#state > div > div.css-1hwfws3 > div.css-1uccc91-singleValue")
+        self.form = WebElement(driver, "#userForm")
+

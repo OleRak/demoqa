@@ -21,7 +21,6 @@ def test_login_form(browser):
     form_page.hobbies.click_force()
     form_page.current_address.send_keys("Lomonosovskaja")
 
-    form_page.select_state.click_force()
-    form_page.ncr.find_element()
-    form_page.ncr.click_force()
+    form_page.ncr.scroll_to_element()
+
 
